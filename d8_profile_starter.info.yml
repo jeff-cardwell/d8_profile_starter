@@ -4,40 +4,60 @@ description: 'Starting point for custom Drupal 8 profiles, or just use as is.'
 version: VERSION
 core: 8.x
 dependencies:
-  - node
-  - history
+  - admin_toolbar
+  - admin_toolbar_tools
+  - automated_cron
   - block
+  - block_content
   - breakpoint
   - ckeditor
   - color
-  - config
   - comment
-  - contextual
+  - config
   - contact
-  - menu_link_content
+  - contextual
+  - ctools
+  - ctools_block
+  - ctools_views
   - datetime
-  - block_content
-  - quickedit
+  - dblog
+  - dynamic_page_cache
   - editor
+  - entity_reference_revisions
+  - field
+  - field_ui
+  - file
+  - filter
   - help
+  - history
   - image
+  - layout_plugin
+  - link
   - menu_ui
+  - node
   - options
   - path
   - page_cache
-  - dynamic_page_cache
-  - taxonomy
-  - dblog
+  - page_manager
+  - page_manager_ui
+  - paragraphs
+  - path
+  - pathauto
+  - quickedit
+  - rdf
+  - redirect
+  - responsive_image
   - search
   - shortcut
+  - system
+  - taxonomy
+  - text
+  - token
   - toolbar
-  - field_ui
-  - file
-  - rdf
+  - tour
+  - user
   - views
   - views_ui
-  - tour
-  - automated_cron
 themes:
   - bartik
   - seven
