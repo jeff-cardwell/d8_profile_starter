@@ -10,7 +10,16 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "drupal/layout_plugin": "1.x-dev",
+        "drupal/page_manager": "1.x-dev",
+        "drupal/entity_reference_revisions": "^1.0",
+        "drupal/paragraphs": "^1.0",
+        "drupal/pathauto": "1.x-dev",
+        "drupal/redirect": "1.x-dev",
+        "drupal/token": "1.x-dev",
+        "drupal/admin_toolbar": "^1.17"
+    },
     "repositories": {
         "drupal": {
             "type": "composer",
